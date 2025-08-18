@@ -9,25 +9,35 @@
 </head>
 
 <body>
-    <div class="container">
-        <H1>LOGIN</H1>
-        <Fieldset>
+    <div class="ring">
+        <i style="--clr:#00FF85;"></i>
+        <i style="--clr:#FFEB3B;"></i>
+        <i style="--clr:#FF0099;"></i>
+
+        <div class="login">
+            <h2 class="title">LOGIN</h2>
+
             <form method="post" action="login.php">
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
-                <br><br>
+                <div class="inputbx">
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="inputbx">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <br><br>
+                <div class="inputbx">
+                    <input type="text" id="mobile" name="mobile" placeholder="Mobile number" required>
+                </div>
 
-                <label for="mobile">Mobile Number:</label>
-                <input type="text" id="mobile" name="mobile" required>
-                <br><br>
-                <button type="submit">Login</button>
+                <div class="inputbx">
+                    <input type="submit" value="Login">
+                </div>
+
+
             </form>
-        </Fieldset>
+
+        </div>
     </div>
 </body>
 
